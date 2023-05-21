@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<title>ICT Project</title>
+</head>
+<body>
+	<center><h1 style="color: #A9CCE3"> ᴜɴɪᴛ ᴄᴏɴᴠᴇʀᴛᴇʀ ! ʙʏ ᴀʟʏᴤᴤᴀ ᴀᴤɪᴤ</h1></center>
+<style type="text/css">
+	body{
+		background: url(milk.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		letter-spacing: center;
+	}
+</style>
+<div class="container container1 form-control">
+    <div class="row row1">
+   	<h2>sᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴍᴇᴀsᴜʀᴇᴍᴇɴᴛ</h2>
+
+<select onchange="location = this.options[this.selectedIndex].value;" class="form-select form-select-lg" aria-label=".form-select-lg example">
+    <option value="index.html" selected>Length</option>      
+    </select>
+    </div>
+    <div class="row align-items-center row2">
+    <div class="col-md-5">
+            <label for="">ᴅᴇᴤɪʀᴇᴅ ᴠᴀʟᴜᴇ</label>
+            <input type="number" class="form-control" name="millimeter" placeholder="Millimeter">            
+    </div>
+    <div class="col-md-2 col2">
+            <h1 class="text-center">=</h1>
+            
+        </div>
+
+        <div class="col-md-5">
+            
+            <label for="">
+                ᴄᴏɴᴠᴇʀᴛᴇᴅ ᴠᴀʟᴜᴇ : 
+            </label>
+            
+            <input type="number" class="form-control" name="output" disabled>
+            
+        </div>
+
+    </div>
+<br>
+<br>
+    <div class="row align-items-center row3">
+        
+        <div class="col-md-4">
+            <button class="btn" onclick="centimeter()">Convert to Centimeters</button>
+        </div>
+
+        <div class="col-md-4">
+            <button class="btn" onclick="meter()">Convert to Meters</button>
+        </div>
+
+        <div class="col-md-4">
+            <button class="btn" onclick="kilometer()">Convert to Kilometers</button>
+        </div>
+
+    </div>
+<script src="scripty.js"></script>
+</div>
+</body>
+</html
